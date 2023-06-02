@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nepali-english-calendar/static/css/main.db8f0079.css",
+    "main.js": "/nepali-english-calendar/static/js/main.d15f585c.js",
+    "static/js/787.2ba450af.chunk.js": "/nepali-english-calendar/static/js/787.2ba450af.chunk.js",
+    "static/media/logo.svg": "/nepali-english-calendar/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/nepali-english-calendar/index.html",
+    "main.db8f0079.css.map": "/nepali-english-calendar/static/css/main.db8f0079.css.map",
+    "main.d15f585c.js.map": "/nepali-english-calendar/static/js/main.d15f585c.js.map",
+    "787.2ba450af.chunk.js.map": "/nepali-english-calendar/static/js/787.2ba450af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db8f0079.css",
+    "static/js/main.d15f585c.js"
+  ]
+}
