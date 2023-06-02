@@ -4,7 +4,7 @@ import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css';
 import NepaliDate from 'nepali-date-converter';
 
-const datesToAddClassTo = [{"09-02-2080": "Dad's bday"}, {"29-02-2080": "Asmi Bday"}, {"02-03-2080": "Mom's bday"}, {"28-05-2080": "Father's day"}];
+const datesToAddClassTo = [{"09-02-2080": "Dad's bday"}, {"29-02-2080": "Asmi bday"}, {"02-03-2080": "Mom's bday"}, {"28-05-2080": "Father's day"}, {"12-11-2080": "Dada's bday"},  {"11-11-2080": "Sanu's bday"}];
 
 function tileClassName({ date, view }) {
   // Add class to tiles in month view only
@@ -29,7 +29,7 @@ function tileContent({date, view}) {
       const isEvent = (new NepaliDate(date) - new NepaliDate(key)) === 0;
       return isEvent;
     })) {
-      return (<><div className="nepali-date">{nepaliDate}</div><div>{val}</div></>)
+      return (<><div className="nepali-date">{nepaliDate}</div><div className='event-name'>{val}</div></>)
     } else {
       return (<div className="nepali-date">{nepaliDate}</div>)
     }

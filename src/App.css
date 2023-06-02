@@ -56,11 +56,41 @@
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.125em;
  }
+
  @media only screen and (max-width: 600px) {
   .App {
     align-items: flex-start;
-    justify-content: flex-start;
   }
+  .react-calendar {
+    min-width: 380px;
+  }
+
+  .react-calendar__tile {
+    font-size: 1rem;
+    font-weight: 600;
+    width: auto;
+  }
+
+  .nepali-date {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  .react-calendar__tile--event  {
+    font-weight: 200;
+    color: white !important;
+    background: rgb(19, 116, 96) !important;
+    line-height: 14px !important;
+    padding: 0px 1px !important;
+  
+    .nepali-date {
+      font-size: 12px !important;
+    }
+
+    .event-name {
+      font-size: 15px !important;
+    }
+   }
  }
  .react-calendar__navigation button {
   color: #6f48eb;
@@ -90,7 +120,7 @@
   color: #d10000;
  } */
  .react-calendar__tile {
-  min-width: 50px;
+  width: 50px !important;
   height: 100px;
   border: 1px solid black;
  }
